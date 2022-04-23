@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    background: #222;
+    background-image: url("weather.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    color: white;
+
+}
+.card {
+    background-color: black;
+    opacity: 0.6;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 5px;
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 57px;
+    outline: none;
+    background: #555555bd;
+    color:white;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;   
+}
+button:hover{
+    background-color: #7c7c7c8b;        
+}
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 24px;
+    background: #7c7c7c85;
+    color: black;
+    font-size: 120%;
+    width: 100%;
+
+}
+input.search-bar:hover{
+    background-color: #7c7c7c8b;
+   
+} 
+input.search-bar:focus{
+    background-color: rgb(105, 197, 228);
+}
+::placeholder {
+    color: black;
+     
+    font-size: 15px;
+  }
+
+
