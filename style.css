@@ -69,3 +69,11 @@ input.search-bar:focus{
   }
 
 
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    margin-left: 10px;
+}
